@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import sample.system.produkt.serial.SerialSensacyjny;
 
 public class Main extends Application {
 
@@ -20,7 +19,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
 
-        SerialSensacyjny houseOfCards = new SerialSensacyjny("House of Cards",".jpg","mega petarda","1993.10.12","Poland","Julia Roberts",5.0,22,333);
 
         launch(args);
     }

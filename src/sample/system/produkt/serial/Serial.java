@@ -1,11 +1,11 @@
 package sample.system.produkt.serial;
 
 import sample.system.produkt.Produkt;
-import sample.system.produkt.Sensacyjny;
+import sample.system.produkt.productInterface.ISensational;
 
 import java.util.ArrayList;
 
-public abstract class Serial extends Produkt implements Sensacyjny {
+public abstract class Serial extends Produkt implements ISensational {
 
     private ArrayList<Episode> episodes;
 
