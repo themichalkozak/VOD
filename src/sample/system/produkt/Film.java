@@ -1,4 +1,4 @@
-package sample.system;
+package sample.system.produkt.film;
 
 import sample.system.produkt.Produkt;
 
